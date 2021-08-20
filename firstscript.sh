@@ -6,4 +6,7 @@ echo Ola Mundo
 #comando ps mostra quantos shells estao abertos
 #comando "echo $" mostra na tela a variavel chamada
 #comando "teste=valor" atribui a variavel teste no shell
-#comando "echo $teste" mosdtra na tela "valor" da variavel
+#comando "echo $teste" mostra na tela "valor" da variavel
+#comando "unset teste" Desativa a variavel
+teste=valor
+echo $teste
