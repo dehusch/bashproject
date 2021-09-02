@@ -10,4 +10,5 @@ echo -n "O usuario é " # -n não pula a linha
 whoami
 
 #After all, the permissions must be change following the command
-# chmod a+x 06 - echo.sh
+# chmod a+x 006-echo.sh
+#try do not put spaces in file name.
