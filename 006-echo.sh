@@ -5,6 +5,7 @@
 
 cd / #change to / directory
 ls -la #execute ls command
+echo "Lista de arquivos dentro da raiz"
 
 #After all, the permissions must be change following the command
 # chmod a+x 06 - echo.sh
