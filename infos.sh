@@ -15,5 +15,3 @@ whoami
 hostname
 uptime
 uname -rms
-
-#FIM

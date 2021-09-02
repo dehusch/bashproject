@@ -12,5 +12,3 @@ ls ~
 alias lsl='ls-la'
 #para excluir um alias digite:
 unalias nome_alias
-
-#FIM

@@ -29,5 +29,3 @@ export teste
 
 #comando "unset teste" Desativa a variavel
 unset teste
-
-#FIM

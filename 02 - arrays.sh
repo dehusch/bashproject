@@ -12,5 +12,3 @@ testearray[4]=abacate
 unset testearray[2]
 #remover todo o array:
 unset testearray[*]
-
-#FIM

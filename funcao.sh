@@ -11,5 +11,3 @@ palavra(){
 #
 #Para saber quais funcoes estao ativas no base:
 typeset -f
-
-#FIM
