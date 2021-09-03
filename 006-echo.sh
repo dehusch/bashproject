@@ -12,3 +12,4 @@ whoami
 #After all, the permissions must be change following the command
 # chmod a+x 006-echo.sh
 #try do not put spaces in file name.
+#To execute a script "./filename.sh"
