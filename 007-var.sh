@@ -12,4 +12,7 @@ echo "A data é $dia"
 
 #copiar a listagem de um diretorio para arquivos unicos, de acordo com a data e hora.
 arq=`date +%d%m%y%H%M`
-ls -la /home/fabio > log.$arq #apenas > sobrescreve e >> mantem e acrescenta o conteudo quando executado
+ls -la /home/d3ck date > log$arq.txt #apenas > sobrescreve e >> mantem e acrescenta o conteudo quando executado
+#NESTE CASO ACIMA, a variavel arq sera executada, sendo assim, a cada minuto que 
+#executar o comando, sera criado um arquivo novo.
+
