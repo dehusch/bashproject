@@ -6,4 +6,9 @@
 #1 = General error unknown
 #126 = Not allowed to execute the command.
 #127 = Command not found
-#To see the last command output: echo $?
+#To see the last command output:
+echo $?
+var1=10
+var2=2
+var3=$((var1 * var2))
+echo $var3
