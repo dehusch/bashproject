@@ -15,7 +15,7 @@ echo $mult
 echo "scale=2; 2/4" | bc
 #PARA ATRIBUIR UMA VARIAVEL
 var=$(echo "scale=2; 2/4" | bc) #"COLOCAR DENTRO DE "backtick ``"
-echo $var
+echo $((var))
 ################################################################
 ################################################################
 var1=100
