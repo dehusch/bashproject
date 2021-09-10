@@ -42,6 +42,9 @@ teste=valor
 #comando "echo $teste" mostra na tela "valor" da variavel
 echo $teste
 
+#variavel com espaço
+fred='Four spaces between these words.'
+echo $fred
 #para tornar a variavel global (Acessada por outros terminais)
 export teste
 
