@@ -14,7 +14,7 @@ echo Ola Mundo
 
 ###############################
 #nano .tcshrc
-#set prompt='[%t][%n@%m:%~]% '
+#set prompt='[%t][%n@%m:%C2 ]% '
 #alias la 'ls -LA'
 #alias hom 'cd /usr/home/d3ck'
 #setenv CLICOLOR
