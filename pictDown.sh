@@ -1,6 +1,15 @@
 #!/bin/bash
-URL="http://www.google.com"
+
+# URL do site
+URL="www.globo.com"
+
+# Diretório de destino para salvar as imagens
 DEST_DIR="/home/eberhardh/ehusch/"
-IMAGE_URLS=$(wget -qO- "$URL" | grep -oP '<img[^>]+src="\K[^"]+' | grep -E '\.(jpg|jpeg|png|gif)')
-for IMAGE_URL in $IMAGE_URLS; do FULL_URL="$URL/$IMAGE_URL" wget -P "$DEST_DIR" "$FULL_URL"
+
+# Extrai todas as URLs de imagem do site
+IMAGE_URLS=$(wget -qO- "$URL" | grep -oE 'https?://[^"]+\.(jpg|jpeg|png|gif)')
+
+# Percorre cada URL de imagem e faz o download
+for IMAGE_URL in $IMAGE_URLS; do
+    wget -P "$DEST_DIR" "$IMAGE_URL"
 done
